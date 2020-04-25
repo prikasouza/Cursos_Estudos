@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detran</title>
+  <style>
+    body h1 {
+      text-align: center;
+    }
+    #image{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    img {
+      width: 35%;
+      height: 35%;
+      margin-bottom: 20px;
+    }
+    #velo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #res{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sistema de Multas</h1>
+  <div id="image">
+  <img src="https://img.elo7.com.br/product/zoom/217C56B/painel-velocimetro-carro-frete-gratis-banner-festa-infantil.jpg" alt="velocimetro">
+</div>
+<div id="velo">
+  Velocidade do carro: <input type="number" name= "txtvel" id="txtvel"> Km/h
+  <input type="button" value="Verificar" onclick="calcular()">
+</div>
+  <div id="res">
+
+  </div>
+
+  <script>
+
+    function calcular(){
+      var txtv = document.querySelector('input#txtvel')
+      var res = document.querySelector('div#res')
+      var vel = Number(txtv.value)
+      res.innerHTML = `<p>Sua velocidade é de <strong>${vel} </strong> Km/h </p>`
+      if(vel >60){
+        res.innerHTML += `<p>Você ultrapassou a velocidade permitida. <strong> MULTADO!!!! <strong> </p>`
+      }
+      res.innerHTML += `<p>Dirija sempre com cinto de segurança </p>`
+
+
+    }
+  </script>
+</body>
+</html>
