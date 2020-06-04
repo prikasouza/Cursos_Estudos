@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milanote</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="https://milanote.com/favicon.ico" type="image/x-icon">
+  <script>
+    function mostrarMenu(mostrar){
+      var menu = document.getElementById("menu");
+      
+      if (mostrar){
+        menu.style.display = "block";
+      }
+      else{
+        menu.style.display = "none";
+      }
+    }
+  </script>
+  
+
+</head>
+<body>
+  <header class="header">
+    <div class="div-esquerda">
+      <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="Logo"><g><path fill="#31303A" d="M18 0c9.941 0 18 8.059 18 18s-8.059 18-18 18S0 27.941 0 18 8.059 0 18 0zm0 19.414L22.586 24h-9.172L18 19.414zm6-6v9.172L19.414 18 24 13.414zm-12 9.172v-9.172L16.586 18 12 22.586zm13.376 3.34a.997.997 0 0 0 .55-.55l-.005.013A.997.997 0 0 0 26 25V11c0-.89-1.077-1.337-1.707-.707L18 16.586l-6.293-6.293C11.077 9.663 10 10.109 10 11v14a1 1 0 0 0 1 1h14c.138 0 .27-.028.39-.079l-.014.006z"></path></g></svg>
+
+      <div class="nome">
+        <span class="nome-logo">Milanote</span>
+      </div>
+      
+      
+    </div>
+
+    <div class="div-direita">
+      <a onmouseout="mostrarMenu(false)" onmouseover="mostrarMenu(true)">How people use Milanote</a>
+      <div id="menu" class="div-menu" onmouseout="mostrarMenu(false)" onmouseover="mostrarMenu(true)">
+        
+        <div class="col-um">
+
+          <ul>
+            <h1>By Profession</h1> 
+            <h2> Creative professionals</h2> 
+            
+              <li><a href="#">Creative directors</a></li>
+              <li><a href="#">Filmmakers</a></li>
+              <li><a href="#">Photographers</a></li>
+              <li><a href="#">Marketers</a></li>
+            
+            <h2>Designers</h2>
+        
+              <li><a href="#">UX/UI designers</a></li>
+              <li><a href="#">Graphic designers</a></li>
+              <li><a href="#">Motion designers</a></li>
+              <li><a href="#">Interior designers</a></li>
+              <li><a href="#">Game designers</a></li>
+          </ul>
+
+                
+        
+        <ul>
+          <h1>By Team</h1>
+          <h2>Creative companies</h2>
+        
+            <li><a href="#">Agencies</a></li>
+            <li><a href="#">Startups</a></li>
+          
+          
+          <h2>Product teams</h2>
+       
+            <li><a href="#">Product designers</a></li>
+            <li><a href="#">Product managers</a></li>
+            <li><a href="#">developers & engineers</a></li>
+          
+        </ul>
+
+        
+          <ul> 
+            <h1>BY TECHINIQUE</h1> 
+            <h2>The creative process</h2>
+          
+              <li><a href="#">Moodboarding</a></li>
+              <li><a href="#">Brainstorming</a></li>
+              <li><a href="#">Storyboarding</a></li>
+              <li><a href="#">Creative writing</a></li>
+             <li><a href="#">Design collaboration</a></li>
+              <li><a href="#">Creative briefs</a></li>
+            
+            <h2>Productivity</h2>
+          
+              <li><a href="#">Note-taking</a></li>
+              <li><a href="#">Project management</a></li>
+              <li><a href="#">Mind-mapping</a></li>
+              <li><a href="#">whiteboarding</a></li>
+              <li><a href="#">Remote working</a></li>
+          </ul>
+
+      
+
+        </div>
+
+      </div>
+      <input type="button" name="btn-login"  class="btn"value="Log in">
+
+      <input type="button" name="btn-sign"  class="btn"value="Sign up for free">
+    </div>
+
+  </header>
+
+  <div class="bloco-1">
+    <div class="txt-bl-1">
+     <div class="txt-bl-1-1">
+      <h1>Get Organized.</h1> 
+      <h1>Stay creative.</h1> <br>
+      <p>Milanote is an easy-to-use tool to organize your ideas and projects into visual boards.</p>
+     </div>
+      
+
+      <input type="button" name="btn-login"  class="btn-1"value="Sign up for free">
+
+      <div class="txt-bl-1-2">
+      <p>"The Evernote for Creatives"</p>
+
+      <div class="txt-bl-1-2b">
+        
+      <img src="https://images.prismic.io/milanote/ba790b9b1e2d4a3d184223518d89f25a9e3375be_bryan2x-cc5651bf0374649c6f3e727eb88c588a.png?auto=compress,format">
+      <p>Bryan ClarkThe Next Web</p>
+      </div>
+      </div>
+      
+      
+    </div>
+
+    <div class="img-bl-1">
+      <img src="https://images.prismic.io/milanote/00af2eea-4efe-468c-96e7-fbe26e641fa6_homepage-hero.png?auto=compress,format" srcset="https://images.prismic.io/milanote/00af2eea-4efe-468c-96e7-fbe26e641fa6_homepage-hero.png?auto=compress,format&amp;rect=0,0,1840,1217&amp;w=919&amp;h=608 1x, https://images.prismic.io/milanote/00af2eea-4efe-468c-96e7-fbe26e641fa6_homepage-hero.png?auto=compress,format 2x">
+    </div>
+
+  </div>
+
+  <section class="section" style="background-image:url(&quot;data:image/svg+xml,%3Csvg width='10' height='10' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23F2F2F2' d='M0 0h10v10H0z'/%3E%3Cpath fill='%23E6E5E2' d='M0 0h2v2H0z'/%3E%3C/g%3E%3C/svg%3E&quot;);">
+  <div class="bloco-2">
+    <h1>Collect everything in one place</h1>
+
+    <div class="bl2-1">
+      <img src="https://images.prismic.io/milanote/b8d7b18e-d938-4746-bd97-3ec25a0fbfc1_write-notes.png?auto=compress,format">
+
+      <h2>Write notes & to-do lists</h2>
+      <p>Simple text editing and task management make it easy to add your thoughts to a board.</p>
+
+    </div>
+    <div class="bl2-2">
+      <img src="https://images.prismic.io/milanote/0eadda52-5c2f-4400-9d93-82d6e3f7450e_image-upload%402x.png?auto=compress,format">
+
+      <h2>Upload images & files</h2>
+      <p>Milanote supports all common file types including JPGs, PDFs, Word, Excel, common design files and many more.</p>
+
+    </div>
+
+
+    <div class="bl2-3">
+      <img src="https://images.prismic.io/milanote/bfb8402e-3392-4fa1-9f52-3e71573d0a2e_image-videos+2%402x.png?auto=compress,format">
+
+      <h2>Save text, images & links from the web</h2>
+      <p>The Milanote Web Clipper lets you save inspiration and ideas from any website with a single click.</p>
+
+    </div>
+
+    <div class="bl2-4">
+      <img src="https://images.prismic.io/milanote/bfb9deb9-d1d8-48e7-b631-75915d512a81_image-iphone-app%402x.png?auto=compress,format">
+
+      <h2>Add notes & photos from your phone</h2>
+      <p>Anything you save in the Milanote iPhone app will be ready to organize as soon as you're back at your computer.</p>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <div class="bl3-1">
+      <h1>Organize visually</h1>
+      <p>Milanote's flexible drag and drop interface lets you arrange things in whatever way makes sense for your project.</p>
+    </div>
+
+    <div class="bl3-2">
+      <img src="https://images.prismic.io/milanote/b3571b71-428a-4451-a4b5-4e0fc2f421e9_board-research.png?auto=compress,format&amp;w=1170" srcset="https://images.prismic.io/milanote/b3571b71-428a-4451-a4b5-4e0fc2f421e9_board-research.png?auto=compress,format&amp;w=1170 1x, https://images.prismic.io/milanote/b3571b71-428a-4451-a4b5-4e0fc2f421e9_board-research.png?auto=compress,format&amp;w=2340 2x">
+    </div>
+  </section>
+
+<section class="section-3">
+  <div class="bl4-1">
+    <h1>Share with your team</h1>
+    <p>Milanote boards can be a private place to think, or a shared workspace for collaboration—you're in total control of who sees what.</p>
+  </div>
+
+  <div class="bl4-2">
+    <img src="https://images.prismic.io/milanote/47d5bc5c-b3d1-419a-b7c7-ef12558a7480_Rectangle+Copy+4%402x.png?auto=compress,format">
+
+    <h2>Edit together in real-time</h2>
+    <p>Instantly see your team's changes, leave comments, and never miss a thing with smart notifications and alerts.</p>
+
+  </div>
+
+  <div class="bl4-3">
+    <img src="https://images.prismic.io/milanote/9373c932-d6b5-4271-8066-cc0b3e758075_share.png?auto=compress,format">
+
+    <h2>Share the result</h2>
+    <p>When you're ready, you can invite anyone to view and edit your boards or download a high quality printable PDF.</p>
+  </div>
+
+</section>
+
+  </div>
+</body>
+</html>
